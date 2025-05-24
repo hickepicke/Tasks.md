@@ -41,6 +41,9 @@ export function Header(props) {
 			<button type="button" onClick={props.onNewLaneBtnClick}>
 				New lane
 			</button>
+			<button type="button" onClick={() => window.location.reload()}>
+				Reload
+			</button>
 		</header>
 	);
 }
